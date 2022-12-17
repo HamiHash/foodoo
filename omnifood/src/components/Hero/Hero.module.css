@@ -1,0 +1,53 @@
+.hero {
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 3rem;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50rem;
+  gap: 3rem;
+  padding-top: 3rem;
+  max-width: 60rem;
+}
+
+.headline h1 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  font-weight: 800;
+}
+
+.headline p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.hero_img {
+  width: 50rem;
+}
+
+.hero_links {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero_links a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: azure;
+  background-color: orange;
+  padding: 1.2rem 1.2rem;
+  border-radius: 1rem;
+}
+
+.hero_links a:hover {
+  box-shadow: 0 0rem 1rem 0rem orange;
+  transition: 250ms;
+}

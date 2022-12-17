@@ -1,0 +1,34 @@
+.header {
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 3rem;
+}
+
+.header nav {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+img {
+  width: 15rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: orange;
+  transition: 300ms;
+}
+
+.tryforfree {
+  color: orange;
+}
