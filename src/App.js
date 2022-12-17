@@ -1,4 +1,4 @@
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Hero from "./components/Hero/Hero";
 import Layout from "./components/Layout/Layout";
 
