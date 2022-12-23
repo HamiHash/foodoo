@@ -1,12 +1,23 @@
 import { Link } from "react-router-dom";
 import classes from "./Hero.module.css";
-import pic from "../../assets/hero.webp";
+import pic from "../../assets/hero.png";
 
 function Hero() {
   return (
     <section className={classes.hero}>
       <div className={classes.headline}>
-        <h1>A healthy meal delivered to your door, every single day</h1>
+        <div>
+          <h1>
+            A healthy meal<span>.</span>
+          </h1>
+          <h1>
+            delivered to your door<span>,</span>
+          </h1>
+          <h1>
+            {" "}
+            every single day<span>!</span>
+          </h1>
+        </div>
         <p>
           The smart 365-days-per-year food subscription that will make you eat
           healthy again. Tailored to your personal tastes and nutritional needs.

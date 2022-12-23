@@ -1,5 +1,4 @@
 .header {
-  background-color: azure;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,20 +14,20 @@
 }
 
 img {
-  width: 15rem;
+  width: 18rem;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 nav a:hover {
   text-decoration: none;
-  color: orange;
+  color: #fe3361;
   transition: 300ms;
 }
 
 .tryforfree {
-  color: orange;
+  color: #fe3361;
 }

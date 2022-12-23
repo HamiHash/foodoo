@@ -1,12 +1,12 @@
-import { Fragment } from "react";
 import Header from "./Header";
+import classes from "./Layout.module.css";
 
 function Layout(props) {
   return (
-    <Fragment>
+    <main className={classes.container}>
       <Header />
-      <main>{props.children} </main>
-    </Fragment>
+      <section>{props.children}</section>
+    </main>
   );
 }
 
