@@ -1,0 +1,93 @@
+.mealContainer {
+  padding-top: 5rem;
+  display: flex;
+}
+
+.mealCardDetail {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 8px 8px #091423 inset;
+}
+
+.headingSecondary2 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  color: #e08000ff;
+}
+
+.tagsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.tags {
+  border-radius: 5px;
+  background-color: green;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.3rem;
+}
+
+.tag_orange {
+  border-radius: 5px;
+  background-color: #e08000ff;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.3rem;
+}
+
+.listTitle {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.list {
+  list-style: none;
+  font-size: 2rem;
+  line-height: 3.8rem;
+  padding: 1rem;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  color: #fdae00ff;
+}
+
+.card {
+  transition: all 400ms;
+}
+
+.card:hover {
+  transform: translate(0, -2.5rem);
+}
+
+.benefits {
+  list-style: none;
+  font-size: 2.6rem;
+  line-height: 4.2rem;
+  padding: 1rem;
+}
+
+.benefits li {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}

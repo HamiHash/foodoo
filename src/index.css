@@ -16,3 +16,34 @@ body {
   background-color: #091423;
   color: white;
 }
+
+.color {
+  --honey-yellow: #fdae00ff;
+  --maximum-yellow-red: #fabe55ff;
+  --blue-sapphire: #256483ff;
+  --charcoal: #304351ff;
+  --fulvous: #e08000ff;
+  --gunmetal: #142c38ff;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.card {
+  border-radius: 8px;
+  background-color: #091423;
+  box-shadow: 0 0 1rem 0rem black;
+  margin-bottom: 5rem;
+  padding-bottom: 1.5rem;
+}

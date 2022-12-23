@@ -23,8 +23,8 @@ function Hero() {
           healthy again. Tailored to your personal tastes and nutritional needs.
         </p>
         <div className={classes.hero_links}>
-          <Link>Start eating well!</Link>
-          <Link>Learn more</Link>
+          <Link className={classes.first}>Start eating well!</Link>
+          <Link className={classes.second}>Learn more</Link>
         </div>
         <div>
           <div></div>

@@ -45,22 +45,7 @@ span {
   gap: 2rem;
 }
 
-.hero_links a {
-  font-size: 2.2rem;
-  text-decoration: none;
-  font-weight: 500;
-  color: azure;
-  background-color: #fe3361;
-  padding: 1.6rem 2rem;
-  border-radius: 1rem;
-}
-
-.hero_links a:hover {
-  box-shadow: 0 0rem 1rem 0rem #fe3361;
-  transition: 250ms;
-}
-
-.hero_links a {
+.hero_links .first {
   background-image: linear-gradient(
     to right,
     #661427 0%,
@@ -68,7 +53,8 @@ span {
     #661427 100%
   );
   font-weight: 600;
-  /* margin: 10px; */
+  text-decoration: none;
+  font-size: 2.2rem;
   padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
@@ -79,11 +65,39 @@ span {
   display: block;
 }
 
-.hero_links a:hover {
+.hero_links .first:hover {
   background-position: right center; /* change the direction of the change here */
 
   color: #0a1627;
   text-decoration: none;
   box-shadow: 0 0rem 1rem 0rem #fe3361;
+  transition: 250ms;
+}
+
+.hero_links .second {
+  background-image: linear-gradient(
+    to right,
+    #661427 0%,
+    #fdae00ff 51%,
+    #661427 100%
+  );
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 2.2rem;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.second:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #0a1627;
+  text-decoration: none;
+  box-shadow: 0 0rem 1rem 0rem #e08000ff;
   transition: 250ms;
 }
