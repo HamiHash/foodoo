@@ -1,0 +1,98 @@
+.Testimonials {
+  gap: 0;
+}
+
+.quote {
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+
+.quote img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.feedback {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.customer {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.slider {
+  margin: auto;
+  display: grid;
+  position: relative;
+  place-items: center;
+  width: 600px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slideTrack {
+  display: flex;
+  width: calc(250px * 10);
+  animation: scroll 10s linear infinite;
+}
+
+.slideTrack:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
+  /*? image hover effect */
+  perspective: 100px;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 7px;
+
+  /*? image hover effect */
+  transition: transform 1s;
+}
+
+/*? image hover effect */
+.slide img:hover {
+  transform: translateZ(20px);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+/** Shadows **/
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, #091423 0%, transparent 100%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 3%;
+  z-index: 2;
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}

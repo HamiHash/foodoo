@@ -4,7 +4,7 @@
   grid-template-columns: repeat(2, 1fr);
   row-gap: 9.6rem;
   align-items: center;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .section-how {
@@ -38,6 +38,15 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  perspective: 100px;
+}
+
+.stepImgBox img {
+  transition: transform 1s;
+}
+
+.stepImgBox img:hover {
+  transform: translateZ(30px);
 }
 
 .headingSecondary2 {

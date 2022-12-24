@@ -17,6 +17,22 @@ body {
   color: white;
 }
 
+/** Section Headers **/
+.small {
+  color: #e52e57;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  font-size: 1.8rem;
+  padding: 8rem 2rem 0.8rem 2rem;
+}
+
+.big {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 1rem 10rem 1rem;
+}
+
 .color {
   --honey-yellow: #fdae00ff;
   --maximum-yellow-red: #fabe55ff;
@@ -38,6 +54,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+  place-items: center;
 }
 
 .card {
