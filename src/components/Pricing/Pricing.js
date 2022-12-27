@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import PricingHeader from "./PricingHeader";
 import classes from "./Pricing.module.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { IoCheckmarkDoneSharp, IoClose } from "react-icons/io5";
 import Features from "./Features";
 
@@ -41,7 +41,15 @@ const Pricing = () => {
               </span>
             </li>
           </ul>
-          <Link className={`${classes.btn} ${classes.btnStarter}`}>
+          <Link
+            to="Cta"
+            activeClass="active"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            style={{ cursor: "pointer" }}
+            className={`${classes.btn} ${classes.btnStarter}`}
+          >
             Start eating well
           </Link>
         </div>
@@ -79,7 +87,15 @@ const Pricing = () => {
               Get access to latest recipes
             </li>
           </ul>
-          <Link className={`${classes.btn} ${classes.btnComplete}`}>
+          <Link
+            to="Cta"
+            activeClass="active"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            style={{ cursor: "pointer" }}
+            className={`${classes.btn} ${classes.btnComplete}`}
+          >
             Start eating well
           </Link>
         </div>

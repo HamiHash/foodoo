@@ -1,3 +1,5 @@
-# About this rep:
+# About
 
-This is a rebuild of omnifood project taught in "Jonas Schedmann: HTML CSS" course, using react. and a few design changes as well.
+### This is a Landing page for a fictional AI company **"FOODOO"** build with **react**.
+
+copywriting and some designing is copied from [Jonas Schmedtmann _"HTML CSS"_](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) udemy course.

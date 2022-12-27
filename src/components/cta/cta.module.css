@@ -1,9 +1,10 @@
 .container {
-  height: 55rem;
+  height: 58rem;
   margin: 2rem;
-  margin-top: 10rem;
+  margin-top: 25rem;
   padding: 0;
   display: grid;
+  align-items: center;
   grid-template-columns: 65% 1fr;
   background-image: linear-gradient(
     to right,

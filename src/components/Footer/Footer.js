@@ -1,10 +1,20 @@
 import classes from "./Footer.module.css";
 import logo from "../../assets/logo.png";
+import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <footer className={classes.footer}>
       <div className={classes.column}>
-        <img src={logo} alt="foodoo trademark" />
+        <Link
+          to="Hero"
+          activeClass="active"
+          smooth={true}
+          offset={-50}
+          duration={500}
+          style={{ cursor: "pointer" }}
+        >
+          <img src={logo} alt="foodoo trademark" />
+        </Link>
         <div></div>
         <p>Copyright © 2023 by FOODOO, Inc. All rights reserved.</p>
       </div>

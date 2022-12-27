@@ -1,13 +1,7 @@
-import Header from "./Header";
 import classes from "./Layout.module.css";
 
 function Layout(props) {
-  return (
-    <main className={classes.container}>
-      <Header />
-      <section>{props.children}</section>
-    </main>
-  );
+  return <main className={classes.container}>{props.children}</main>;
 }
 
 export default Layout;

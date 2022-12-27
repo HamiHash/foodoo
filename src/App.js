@@ -1,27 +1,37 @@
-import { Routes, Route } from "react-router-dom";
-import Cta from "./components/cta/cta";
+import Layout from "./components/Layout/Layout";
+import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import How from "./components/How/How";
-import Layout from "./components/Layout/Layout";
 import Meals from "./components/Meals/Meals";
-import Pricing from "./components/Pricing/Pricing";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Pricing from "./components/Pricing/Pricing";
+import Cta from "./components/cta/cta";
 import Footer from "./components/Footer/Footer";
+import { Element } from "react-scroll";
 
 function App() {
   return (
     <Layout>
-      <Routes>
-        <Route path="/">
-          <Hero />
-          <How />
-          <Meals />
-          <Testimonials />
-          <Pricing />
-          <Cta />
-          <Footer />
-        </Route>
-      </Routes>
+      <Header />
+      <Element name="Hero">
+        <Hero />
+      </Element>
+      <Element name="How">
+        <How />
+      </Element>
+      <Element name="Meals">
+        <Meals />
+      </Element>
+      <Element name="Testimonials">
+        <Testimonials />
+      </Element>
+      <Element name="Pricing">
+        <Pricing />
+      </Element>
+      <Element name="Cta">
+        <Cta />
+      </Element>
+      <Footer />
     </Layout>
   );
 }

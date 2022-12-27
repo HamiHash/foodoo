@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import classes from "./Hero.module.css";
 import pic from "../../assets/hero.png";
+import { Link } from "react-scroll";
 
 function Hero() {
   return (
@@ -23,8 +23,28 @@ function Hero() {
           healthy again. Tailored to your personal tastes and nutritional needs.
         </p>
         <div className={classes.hero_links}>
-          <Link className={classes.first}>Start eating well!</Link>
-          <Link className={classes.second}>Learn more</Link>
+          <Link
+            to="Cta"
+            activeClass="active"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            style={{ cursor: "pointer" }}
+            className={classes.first}
+          >
+            Start eating well!
+          </Link>
+          <Link
+            to="Meals"
+            activeClass="active"
+            smooth={true}
+            offset={-50}
+            duration={500}
+            style={{ cursor: "pointer" }}
+            className={classes.second}
+          >
+            Learn more
+          </Link>
         </div>
         <div>
           <div></div>
