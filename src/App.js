@@ -13,25 +13,27 @@ function App() {
   return (
     <Layout>
       <Header />
-      <Element name="Hero">
-        <Hero />
-      </Element>
-      <Element name="How">
-        <How />
-      </Element>
-      <Element name="Meals">
-        <Meals />
-      </Element>
-      <Element name="Testimonials">
-        <Testimonials />
-      </Element>
-      <Element name="Pricing">
-        <Pricing />
-      </Element>
-      <Element name="Cta">
-        <Cta />
-      </Element>
-      <Footer />
+      <div className="divHeader">
+        <Element name="Hero">
+          <Hero />
+        </Element>
+        <Element name="How">
+          <How />
+        </Element>
+        <Element name="Meals">
+          <Meals />
+        </Element>
+        <Element name="Testimonials">
+          <Testimonials />
+        </Element>
+        <Element name="Pricing">
+          <Pricing />
+        </Element>
+        <Element name="Cta">
+          <Cta />
+        </Element>
+        <Footer />
+      </div>
     </Layout>
   );
 }
