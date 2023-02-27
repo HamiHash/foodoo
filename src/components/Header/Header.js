@@ -1,6 +1,7 @@
 import classes from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
+import React from "react";
 
 const Header = (props) => {
   return (

@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import PricingHeader from "./PricingHeader";
 import classes from "./Pricing.module.css";
 import { Link } from "react-scroll";

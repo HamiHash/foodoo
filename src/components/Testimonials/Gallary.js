@@ -14,6 +14,7 @@ import pic12 from "../../assets/gallary/gallery-12.jpg";
 import pic13 from "../../assets/gallary/gallery-13.jpg";
 import pic14 from "../../assets/gallary/gallery-14.jpg";
 import pic15 from "../../assets/gallary/gallery-15.jpg";
+import React from "react";
 
 const Gallary = () => {
   return (

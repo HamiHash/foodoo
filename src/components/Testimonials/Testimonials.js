@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import TestimonialsHeader from "./TestimonialsHeader";
 import classes from "./Testimonials.module.css";
 import ronaldo from "../../assets/customer/ronaldo.jpg";

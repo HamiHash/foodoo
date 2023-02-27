@@ -1,6 +1,8 @@
 import classes from "./Footer.module.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-scroll";
+import React from "react";
+
 const Footer = () => {
   return (
     <footer className={classes.footer}>

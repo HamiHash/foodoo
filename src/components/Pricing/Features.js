@@ -3,6 +3,7 @@ import { FaLeaf } from "react-icons/fa";
 import { GiEarthAmerica } from "react-icons/gi";
 import { BsFillPauseCircleFill } from "react-icons/bs";
 import classes from "./Pricing.module.css";
+import React from "react";
 
 const Features = () => {
   return (

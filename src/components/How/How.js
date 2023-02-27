@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import classes from "./How.module.css";
 import HowHeader from "./HowHeader";
 import s1 from "../../assets/app/screen1.png";

@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing/Pricing";
 import Cta from "./components/cta/cta";
 import Footer from "./components/Footer/Footer";
 import { Element } from "react-scroll";
+import React from "react";
 
 function App() {
   return (

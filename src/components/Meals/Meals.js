@@ -3,7 +3,7 @@ import meal1 from "../../assets/meals/meal-1.jpg";
 import meal2 from "../../assets/meals/meal-2.jpg";
 import { SlEnergy } from "react-icons/sl";
 import { IoNutrition, IoStarSharp, IoCheckmarkSharp } from "react-icons/io5";
-import { Fragment } from "react";
+import React, { Fragment } from "react";
 import MealHeader from "./MealHeader";
 
 const Meals = () => {

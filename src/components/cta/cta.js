@@ -1,4 +1,4 @@
-import { Fragment, useRef } from "react";
+import React, { Fragment, useRef } from "react";
 import classes from "./cta.module.css";
 import img from "../../assets/eating.jpg";
 

@@ -1,6 +1,7 @@
 import classes from "./Hero.module.css";
 import pic from "../../assets/hero.png";
 import { Link } from "react-scroll";
+import React from "react";
 
 function Hero() {
   return (
